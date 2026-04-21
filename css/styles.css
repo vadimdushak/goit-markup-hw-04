@@ -1,0 +1,270 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    background-color: #FFFFFF;
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navigation{
+    display: flex;
+    gap: 76px;
+}
+.contacts{
+    font-style: normal;
+}
+
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
+.page-nav{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.nav-link{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+
+}
+
+
+.contact-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: #404BBF;
+}
+.nav-link:active {
+    color: #404BBF;
+}
+
+.contact-link {
+    color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.contact-link:hover{
+    color: #404BBF;
+}
+.page-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.section-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px; 
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.page-title, 
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.page-title {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.page-title-button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    /* height: 56px;  */
+    border: none;
+    
+
+}
+.page-title-button:hover {
+    background-color: #404BBF;
+
+}
+
+.logo-header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo-accent{
+    color: #4D5AE5;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    
+}
+.features-list{
+    display: flex;
+    gap: 24px;
+}
+.feature-title {
+    margin-bottom: 8px;
+}
+.features-list-item {
+    width: calc((100% - 24px * 3) / 4);
+}
+.team{
+    background-color: #F4F4FD;
+}
+.title-team{
+    font-size: 36px; 
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+    
+}
+.team-item{
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 24px * 3) / 4);
+}
+.team-content{
+    padding: 32px 16px; 
+}
+.team-hero{
+    margin-bottom: 8px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.portfolio-category{
+    margin-bottom: 8px;
+}
+.portfolio-item{
+    width: calc((100% - 24px * 2) / 3);
+   
+}
+.portfolio-content{
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    padding: 32px 16px;
+
+}
+.portfolio-title{
+    text-align: center;
+    margin-bottom: 72px;
+
+}
+
+.team-hero, .team-description{
+    text-align: center;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.logo-accent-footer{
+    color: #4D5AE5;
+}
+.page-footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footer-text{
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.footer-content{
+    max-width: 264px;
+    /* max-height: 112px; */
+}
